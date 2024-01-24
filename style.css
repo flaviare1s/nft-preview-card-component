@@ -65,14 +65,32 @@ h1 a:hover {
 #main-card {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     padding: 10px 0px;
 }
 
 .half-main {
     width: 50%;
     display: flex;
+    align-items: center;
     gap: 10px;
+}
+
+.left {
+    justify-content: end;
+}
+
+.icon {
+    width: 18px;
+    height: 18px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.days-left {
+    color: hsl(215, 51%, 70%);
 }
 
 #footer-card {
