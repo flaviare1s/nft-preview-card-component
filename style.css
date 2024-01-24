@@ -131,7 +131,9 @@ h1 a:hover {
 }
 
 #avatar-name {
-    color: hsl(0, 0%, 100%)
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    text-decoration: none;
 }
 
 #avatar-name:hover {
