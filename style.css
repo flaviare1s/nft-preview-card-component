@@ -62,7 +62,7 @@ picture {
     display: none;
 }
 
-picture:active .img {
+picture:hover .img {
     display: flex;
 }
 
